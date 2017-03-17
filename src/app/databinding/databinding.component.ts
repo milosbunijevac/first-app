@@ -5,11 +5,9 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './databinding.component.html',
   styleUrls: ['./databinding.component.css']
 })
-export class DatabindingComponent implements OnInit {
+export class DatabindingComponent{
 
-  constructor() { }
-
-  ngOnInit() {
-  }
+  stringInterpolation = 'This is string interpolation';
+  numberInterpolation = 2;
 
 }
